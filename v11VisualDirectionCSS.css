@@ -1,0 +1,295 @@
+/* V11 — Charlotte-led creative direction */
+.v11-dir {
+  background: #fff;
+  border: 1px solid #e5e8e7;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 18px 0
+}
+
+.v11-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 13px;
+  flex-wrap: wrap
+}
+
+.v11-head h3 {
+  font-size: 17px;
+  letter-spacing: -.4px;
+  margin: 0 0 6px
+}
+
+.v11-sub {
+  font-size: 11px;
+  color: #7d8991;
+  line-height: 1.6;
+  margin: 0 0 13px;
+  max-width: 620px
+}
+
+.v11-chip {
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 7px;
+  font-size: 10px;
+  font-weight: 800;
+  background: #edf5f2;
+  color: #367862;
+  white-space: nowrap
+}
+
+.v11-chip.draft {
+  background: #f3f4f4;
+  color: #728086
+}
+
+.v11-chip.flag {
+  background: #fff2e9;
+  color: #a4694b
+}
+
+.v11-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap
+}
+
+.v11-compose {
+  background: #f9faf9;
+  border: 1px solid #dee7e4;
+  border-radius: 14px;
+  padding: 18px;
+  margin: 16px 0
+}
+
+.v11-compose h4 {
+  margin: 0 0 6px;
+  font-size: 14px
+}
+
+.v11-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 11px;
+  margin-top: 13px
+}
+
+.v11-compose .field {
+  margin-top: 12px
+}
+
+.v11-compose input,
+.v11-compose select,
+.v11-compose textarea {
+  min-width: 0;
+  background: #fff;
+  border: 1px solid #dce2e0;
+  border-radius: 9px;
+  padding: 10px 11px;
+  width: 100%;
+  color: #29343b
+}
+
+.v11-compose textarea {
+  min-height: 75px;
+  resize: vertical
+}
+
+.v11-req {
+  border: 1px solid #e8eaea;
+  border-radius: 12px;
+  padding: 13px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 9px 0;
+  background: #fff
+}
+
+.v11-req .v11-type {
+  background: #eef1f0;
+  color: #5d7777;
+  border-radius: 9px;
+  padding: 9px;
+  min-width: 41px;
+  text-align: center
+}
+
+.v11-req-main {
+  flex: 1;
+  min-width: 0
+}
+
+.v11-req-main strong {
+  font-size: 12px;
+  line-height: 1.35;
+  display: block;
+  margin: 0 0 5px
+}
+
+.v11-req-main p {
+  color: #78848d;
+  font-size: 11px;
+  line-height: 1.55;
+  margin: 5px 0
+}
+
+.v11-req-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px
+}
+
+.v11-req-actions button {
+  border: 1px solid #e0e5e4;
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px 9px;
+  font-size: 10px;
+  color: #54636c;
+  font-weight: 750
+}
+
+.v11-req-actions button:hover {
+  border-color: #e8a99d;
+  color: #bc6c5e
+}
+
+.v11-req-actions .v11-submit {
+  background: #f57c70;
+  color: #fff;
+  border-color: #f57c70
+}
+
+.v11-req-actions .v11-submit:hover {
+  color: white;
+  background: #da6358
+}
+
+.v11-sect {
+  margin-top: 17px
+}
+
+.v11-sect h4 {
+  font-size: 12px;
+  letter-spacing: .02em;
+  margin: 0 0 8px;
+  color: #414b50
+}
+
+.v11-ideas {
+  border-top: 1px solid #edf0ee;
+  padding-top: 14px;
+  margin-top: 18px;
+  color: #617079;
+  font-size: 11px
+}
+
+.v11-ideas summary {
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+  color: #667b78
+}
+
+.v11-idea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f1f0
+}
+
+.v11-idea span {
+  flex: 1
+}
+
+.v11-idea button {
+  padding: 7px 9px;
+  border-radius: 7px;
+  border: 1px solid #e4dfdc;
+  background: #fff;
+  color: #a2695e;
+  font-size: 10px;
+  font-weight: 700
+}
+
+.v11-req-empty {
+  font-size: 11px;
+  color: #8a9295;
+  line-height: 1.6;
+  padding: 10px 0
+}
+
+.v11-note {
+  padding: 11px 13px;
+  border-radius: 10px;
+  background: #fff8f3;
+  color: #976957;
+  font-size: 10px;
+  line-height: 1.6;
+  margin-top: 14px
+}
+
+.v11-naomi-card {
+  background: #fff;
+  border: 1px solid #e5eae8;
+  padding: 16px 18px;
+  border-radius: 14px;
+  margin: 12px 0
+}
+
+.v11-naomi-card h3 {
+  font-size: 14px;
+  margin: 0 0 7px
+}
+
+.v11-naomi-request {
+  border: 1px solid #e8eae9;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 9px
+}
+
+.v11-naomi-request b {
+  font-size: 12px;
+  display: block
+}
+
+.v11-naomi-request p {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #77838b;
+  margin: 5px 0
+}
+
+@media(max-width:620px) {
+  .v11-dir {
+    padding: 14px
+  }
+
+  .v11-two {
+    grid-template-columns: 1fr
+  }
+
+  .v11-req {
+    flex-direction: row
+  }
+
+  .v11-actions {
+    width: 100%
+  }
+
+  .v11-actions .btn {
+    flex: 1
+  }
+
+  .v11-compose {
+    padding: 12px
+  }
+}
